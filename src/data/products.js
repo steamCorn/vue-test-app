@@ -3,67 +3,67 @@ export const products =  [
     name: 'iPhone 13 Pro Max',
     price: 1099,
     country: 'USA',
-    imageLink: 'https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_Max_Product-RED_09142021.jpg.large.jpg'
+    imageLink: 'https://images.unsplash.com/photo-1525598912003-663126343e1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
   },
   {
     name: 'Samsung Galaxy S21 Ultra',
     price: 1199,
     country: 'South Korea',
-    imageLink: 'https://www.samsung.com/us/mobile/galaxy-s21-5g/images/gallery/galaxy-s21-5g-mystic-black-l.png'
+    imageLink: 'https://images.unsplash.com/photo-1498661705887-3778d9ecb4ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
   },
   {
     name: 'Google Pixel 6 Pro',
     price: 899,
     country: 'USA',
-    imageLink: 'https://store.google.com/us/config/pixel_6_pro?hl=en-US&gl=US#customize'
+    imageLink: 'https://images.unsplash.com/photo-1522435106575-43e0ff64fb02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'
   },
   {
-    name: 'MacBook Pro 16"',
+    name: 'MacBook Pro 16',
     price: 2399,
     country: 'USA',
-    imageLink: 'https://www.apple.com/v/macbook-pro-16/e/images/overview/hero__fjd83va8f8um_large.jpg'
+    imageLink: 'https://images.unsplash.com/photo-1617696992381-16b65f34b3b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
   },
   {
     name: 'Microsoft Surface Laptop 4',
     price: 1299,
     country: 'USA',
-    imageLink: 'https://www.microsoft.com/en-us/d/surface-laptop-4/93khpbdw91wk?activetab=overview'
+    imageLink: 'https://images.unsplash.com/photo-1533474573390-2c9396cbec1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80'
   },
   {
     name: 'Sony PlayStation 5',
     price: 499,
     country: 'Japan',
-    imageLink: 'https://www.playstation.com/images/ps5/ps5-overview-hero-desktop-01-en-30oct20.png'
+    imageLink: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80'
   },
   {
     name: 'Xbox Series X',
     price: 499,
     country: 'USA',
-    imageLink: 'https://www.xbox.com/en-US/configure/8WJ714N3RBTL#E0k3q3TT16PmhmJjvE8BjW%2Fd76vmxR6%2FpCxt3qPCnflvX8WYvuRbLxQjKTXhEwD8WJ714N3RBTL'
+    imageLink: 'https://plus.unsplash.com/premium_photo-1673995612622-97982900c4d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80'
   },
   {
     name: 'Nintendo Switch OLED',
     price: 349,
     country: 'Japan',
-    imageLink: 'https://www.nintendo.com/switch/oled-model/'
+    imageLink: ''
   },
   {
     name: 'LG OLED TV',
     price: 2499,
     country: 'South Korea',
-    imageLink: 'https://www.lg.com/us/images/oled-tvs/md07519702/gallery/desktop-01.jpg'
+    imageLink: 'https://images.unsplash.com/photo-1580910051074-3eb694886505?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80'
   },
   {
     name: 'Sony A7R IV Mirrorless Camera',
     price: 2999,
     country: 'Japan',
-    imageLink: 'https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-7rm4'
+    imageLink: 'https://plus.unsplash.com/premium_photo-1681336999969-516d993e88cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
   },
   {
     name: 'Canon EOS R6 Mirrorless Camera',
     price: 2499,
     country: 'Japan',
-    imageLink: 'https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/eos-dslr-and-mirrorless-cameras/mirrorless/eos-r6/eos-r6'
+    imageLink: 'https://images.unsplash.com/photo-1512054502232-10a0a035d672?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80'
   }
 ]
 
