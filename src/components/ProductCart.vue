@@ -10,19 +10,21 @@
         <h2 class="price-title">{{ product.price }} $</h2>
       </div>
   
-      <button class="add-button">Add to Cart</button>
+      <button class="add-button" @click="cartStore.addItem(product)">Add to Cart</button>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import { useCartStore } from '../stores/CartStore.js';
+
+const cartStore = useCartStore();
 
 defineProps({
   product: Object,
 })
 
-console.log()
 </script>
 
 <style lang="scss" scoped>

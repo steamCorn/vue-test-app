@@ -7,19 +7,14 @@
         <p>Account</p>
         <p>Contact</p>
       </nav>
-      <div class="cart-wrapper">
+      <div class="cart-wrapper" @click="showCart">
         <img src="../assets/images/icons/shopping_cart.svg" alt="shopping_cart" class="cart-icon">
-        <span class="cart-counter">{{ 5 }}</span>
+        <span class="cart-counter">{{ cartStore.items.length }}</span>
       </div>
     </div>
   </header>
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
-  </div>
+
+  <Cart v-if="openCart"/>
 
   <main class="content-wrapper">
     <ProductCart 
@@ -33,15 +28,26 @@
 <script setup>
 import { ref } from 'vue';
 import ProductCart from '../components/ProductCart.vue';
+import Cart from './Cart.vue';
 import { useProductsStore } from '../stores/ProductsStore';
+import { useCartStore } from '../stores/CartStore.js';
 
 const productStore = useProductsStore();
+const cartStore = useCartStore();
+
 productStore.fill()
 defineProps({
   msg: String,
 })
 
-const count = ref(0)
+const openCart = ref(false);
+function showCart() {
+  return openCart.value = !openCart.value;
+}
+function defineEmits(){
+  return openCart.value = false;
+}
+
 </script>
 
 <style lang="scss" scoped>
