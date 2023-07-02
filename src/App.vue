@@ -1,9 +1,9 @@
 <template>
-  <HomePage/>
+  <RouterView />
 </template>
 
 <script setup>
-import HomePage from '@/views/HomePage.vue';
+import { RouterView } from 'vue-router';
 
 </script>
 

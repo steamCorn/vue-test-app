@@ -28,7 +28,7 @@
 <script setup>
 import { ref } from 'vue';
 import ProductCart from '@/components/ProductCart.vue';
-import Cart from '@/components/partial/Cart.vue';
+import Cart from '@/components/partials/Cart.vue';
 import { useProductsStore } from '@/stores/ProductsStore';
 import { useCartStore } from '@/stores/CartStore.js';
 
