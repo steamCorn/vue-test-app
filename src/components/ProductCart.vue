@@ -17,7 +17,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { useCartStore } from '../stores/CartStore.js';
+import { useCartStore } from '@/stores/CartStore.js';
 
 const cartStore = useCartStore();
 
@@ -42,13 +42,14 @@ defineProps({
   
     .image-product-wrapper {
       height: 10rem;
-      width: 100%;
       overflow: hidden;
       border-radius: 0.5rem;
   
       .image-product {
         height: 100%;
+        width: 100%;
         border-radius: 0.5rem;
+        object-fit: cover;
       }
     }
 

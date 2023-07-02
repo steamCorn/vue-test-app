@@ -27,10 +27,10 @@
 
 <script setup>
 import { ref } from 'vue';
-import ProductCart from '../components/ProductCart.vue';
-import Cart from './Cart.vue';
-import { useProductsStore } from '../stores/ProductsStore';
-import { useCartStore } from '../stores/CartStore.js';
+import ProductCart from '@/components/ProductCart.vue';
+import Cart from '@/components/partial/Cart.vue';
+import { useProductsStore } from '@/stores/ProductsStore';
+import { useCartStore } from '@/stores/CartStore.js';
 
 const productStore = useProductsStore();
 const cartStore = useCartStore();
