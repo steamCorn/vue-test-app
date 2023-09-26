@@ -1,8 +1,11 @@
 <template>
+  <NavHeader />
   <HomePage/>
+  <router-view></router-view>
 </template>
 
 <script setup>
+import NavHeader from '@/components/NavHeader.vue';
 import HomePage from '@/views/HomePage.vue';
 
 </script>

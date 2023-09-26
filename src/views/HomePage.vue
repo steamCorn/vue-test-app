@@ -1,21 +1,5 @@
 <template>
-  <header class="main-header-wrapper">
-    <div class="header-content">
-      <nav>
-        <p>Home</p>
-        <p>Products</p>
-        <p>Account</p>
-        <p>Contact</p>
-      </nav>
-      <div class="cart-wrapper" @click="showCart">
-        <img src="../assets/images/icons/shopping_cart.svg" alt="shopping_cart" class="cart-icon">
-        <span class="cart-counter">{{ cartStore.items.length }}</span>
-      </div>
-    </div>
-  </header>
-
-  <Cart v-if="openCart"/>
-
+  <!-- <Cart v-if="openCart"/> -->
   <main class="content-wrapper">
     <ProductCart 
       v-for="item in productStore.products" 
@@ -39,14 +23,6 @@ productStore.fill()
 defineProps({
   msg: String,
 })
-
-const openCart = ref(false);
-function showCart() {
-  return openCart.value = !openCart.value;
-}
-function defineEmits(){
-  return openCart.value = false;
-}
 
 </script>
 
